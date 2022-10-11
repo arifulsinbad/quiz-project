@@ -1,6 +1,6 @@
 # Quiz-ASSIGNMENT
 
-Live Site: [https://remarkable-buttercream-092df2.netlify.app/]to view it in your browser.
+Live Site: https://remarkable-buttercream-092df2.netlify.app/
 ## Information
 This project quiz relative information in react.And JavaScript Quiz relative information or css relative Quiz information and git relative Quiz information etc...
 You will know
