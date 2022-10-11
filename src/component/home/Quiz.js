@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './quiz.css'
 const Quiz = ({quiz}) => {
  // console.log(quiz)
- const {id, logo, name, total} = quiz;
+ const {id, logo, name} = quiz;
  return (
   <div className='logo'>
    <img src={logo} alt="" />

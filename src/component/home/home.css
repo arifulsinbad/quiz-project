@@ -6,12 +6,25 @@
 .img h1{
  font-size: 3em;
  position: relative;
- top: -200px;
+ top: -300px;
  color: white
  
 }
 .all-flex{
+ margin: 20px;
  display: flex;
  gap: 20px;
  justify-content: center;
+}
+@media screen and  (min-width: 600px) and (max-width: 1000px) {
+ .all-flex{
+  display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 600px) {
+ .all-flex{
+ display: grid;
+  grid-template-columns: repeat(1, 1fr);
+ }
 }

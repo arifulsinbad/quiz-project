@@ -4,7 +4,7 @@ import './questions.css'
 
 const Questions = ({questions}) => {
 const {options, question, correctAnswer} =questions;
- // console.log(options)
+ // console.log(questions)
  const [answer, setAnswer] = useState([])
  console.log(answer)
  const handleClick = (option)=>{
@@ -28,7 +28,7 @@ alert(answer)
 
  return (
   <div>
-   <h2 >{question}</h2>
+   <h2 className='h2'>{question}</h2>
    <button onClick={()=>handleAnswer(correctAnswer)}>Answer <i class="fa-solid fa-eye"></i></button>
    
    <div>

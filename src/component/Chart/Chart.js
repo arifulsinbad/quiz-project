@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-
+import './chart.css'
 const Chart = () => {
  
    const array = useLoaderData();
@@ -11,13 +11,16 @@ const Chart = () => {
 
  return (
   <div className='chart'>
-  <LineChart width={500} height={400} data={data}>
+ <div>
+ <LineChart width={500} height={400} data={data}>
   <Line type="monotone" dataKey="total" stroke="#82ca9d" />
   <XAxis dataKey="name" />
           <YAxis />
           <Tooltip></Tooltip>
+          
 
   </LineChart>
+ </div>
   </div>
  );
 };
