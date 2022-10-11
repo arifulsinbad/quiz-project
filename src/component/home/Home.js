@@ -14,7 +14,7 @@ const Home = () => {
 <h1>Best programming language for web development Quiz</h1>
 
 </div>
-<div>
+<div className='all-flex'>
  {
   data.map(quiz =><Quiz key={quiz.id} quiz={quiz}></Quiz>)
  }
