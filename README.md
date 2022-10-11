@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Quiz-ASSIGNMENT
+
+Live Site: [https://remarkable-buttercream-092df2.netlify.app/]to view it in your browser.
+## Information
+This project quiz relative information in react.And JavaScript Quiz relative information or css relative Quiz information and git relative Quiz information etc...
+You will know
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
