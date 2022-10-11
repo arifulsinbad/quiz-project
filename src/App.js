@@ -18,7 +18,8 @@ path: '/',loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
  element:<Home></Home>
 },
 {
-  path:'/chart', element:<Chart></Chart>
+  path:'/chart', loader: ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
+   element:<Chart></Chart>
 },
 {
   path:'/blog', element:<Blog></Blog>

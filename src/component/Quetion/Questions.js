@@ -20,10 +20,10 @@ const {options, question, correctAnswer} =questions;
   }
  }
 
-const [correct, setCorrect] = useState([])
-console.log(correct)
+// const [correct, setCorrect] = useState([])
+// console.log(correct)
  const handleAnswer = (answer)=>{
-setCorrect(answer)
+alert(answer)
  }
 
  return (
