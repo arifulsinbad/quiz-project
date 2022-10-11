@@ -7,7 +7,12 @@ const Options = ({option,handleClick}) => {
  
   <div onClick={()=>handleClick(option)} className='option'>
 
-   <h3>{option}</h3>
+
+      <label for={option}><h3>{option}</h3></label>
+      <input type="radio" id={option} name="drone" value='select'></input>
+             
+      
+    
   </div>
  );
 };
