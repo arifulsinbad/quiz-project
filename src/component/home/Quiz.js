@@ -9,7 +9,7 @@ const Quiz = ({quiz}) => {
    <img src={logo} alt="" />
    <div className='name'>
     <h4>{name}</h4>
-    <Link to = {`/quizs/${id}`}><button>Go Now Quiz</button></Link>
+    <Link to = {`/quizs/${id}`}><button>Go Now <i class="fa-solid fa-arrow-right"></i></button></Link>
    </div>
   </div>
  );
