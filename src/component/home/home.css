@@ -4,14 +4,15 @@
  
 }
 .img h1{
- font-size: 3em;
+ font-size: 2.2em;
  position: relative;
  top: -300px;
- color: white
+ color: rgb(251, 137, 137)
  
 }
 .all-flex{
  margin: 20px;
+ margin-bottom: 60px;
  display: flex;
  gap: 20px;
  justify-content: center;

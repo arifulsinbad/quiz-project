@@ -6,13 +6,14 @@ const Questions = ({questions}) => {
 const {options, question, correctAnswer} =questions;
  // console.log(questions)
  const [answer, setAnswer] = useState([])
- console.log(answer)
+ // console.log(answer)
  const handleClick = (option)=>{
   // console.log(option)
-
+  
   if(option === correctAnswer){
    setAnswer('Correct Answer')
    // console.log('right')
+
   }
   else{
    setAnswer('Wrong Answer')

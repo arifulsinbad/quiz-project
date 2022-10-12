@@ -12,6 +12,7 @@ const Chart = () => {
  return (
   <div className='chart'>
  <div>
+ <ResponsiveContainer width="90%" height={200}>
  <LineChart width={500} height={400} data={data}>
   <Line type="monotone" dataKey="total" stroke="#82ca9d" />
   <XAxis dataKey="name" />
@@ -20,6 +21,7 @@ const Chart = () => {
           
 
   </LineChart>
+  </ResponsiveContainer>
  </div>
   </div>
  );

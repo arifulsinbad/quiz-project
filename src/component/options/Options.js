@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import './option.css'
 const Options = ({option,handleClick}) => {
- 
+   
  
  return (
  
-  <div onClick={()=>handleClick(option)} className='option'>
+  <div
+  
+  onClick={()=>handleClick(option)} className='option'>
 
 
       <label for={option}><h3>{option}</h3></label>
