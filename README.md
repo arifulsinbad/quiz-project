@@ -1,4 +1,4 @@
-# Quiz-ASSIGNMENT
+# QUIZ-ASSIGNMENT
 
 Live Site: https://remarkable-buttercream-092df2.netlify.app/
 ## Information
