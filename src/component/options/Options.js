@@ -11,7 +11,7 @@ const Options = ({option,handleClick}) => {
 
 
       <label for={option}><h3>{option}</h3></label>
-      <input type="radio" id={option} name="drone" value='select'></input>
+      <input type="radio" id={option} name="" value='select'></input>
              
       
     
